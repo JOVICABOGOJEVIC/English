@@ -27,11 +27,16 @@ font-family: 'Ubuntu', sans-serif;
   
     font-family: 'Ubuntu', sans-serif;
 }
+img{
+    width:200px;
+    height:300px;
+    float:right;
+    padding: 1%;
+}
 
 h5{
-
+    margin-top:13px ;
     font-weight: bold;
-    
 }
 .line{
 border-bottom: 2px solid black;
@@ -53,19 +58,26 @@ border-bottom: 2px solid black;
 .vestine {
   width: 100%; /* Full width */
   background-color: #ddd; /* Grey background */
+
+}
+a{
+    color:#b38e65;
+}
+.m-3{
+    color:  #896743;
 }
 
 .skills {
   text-align: right; /* Right-align text */
-  padding-top: 2px; /* Add top padding */
-  padding-bottom: 2px; /* Add bottom padding */
+  padding-top: 5px; /* Add top padding */
+  padding-bottom: 5px; /* Add bottom padding */
   color: white; /* White text color */
 }
 
-.node {width: 90%; background-color:slateblue;} /* Green */
-
-.react {width: 80%; background-color:slateblue;} /* Blue */
-.node {width: 90%; background-color:slateblue;} /* Green */
-.js {width: 65%; background-color:slateblue ;} /* Red */
-.css {width: 60%; background-color: slateblue;} /* Dark Grey */
-.eng {width: 60%; background-color:slateblue;} /* Dark Grey */
+.node {width: 70%; background-color :#DFCFBE;} /* Green */
+.react {width: 67%; background-color:#DFCFBE;} /* Blue */
+.js {width: 60%; background-color:#DFCFBE;} /* Green */
+.css {width: 93%; background-color:#DFCFBE;} /* Red */
+.mongodb {width: 77%; background-color:#DFCFBE;} /* Dark Grey */
+.git {width: 75%; background-color:#DFCFBE;} /* Dark Grey */
+.eng {width: 70%; background-color:#DFCFBE;} /* Dark Grey */
